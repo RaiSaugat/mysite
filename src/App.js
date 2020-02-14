@@ -62,6 +62,13 @@ function App() {
           >
             <i class="fab fa-codepen"></i>
           </a>
+          <a
+            href="https://dev.to/raisaugat"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-dev"></i>
+          </a>
         </div>
       </div>
     </div>
