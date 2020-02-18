@@ -1,5 +1,5 @@
 const img = path => `/img/${path}`;
-const socialIcon = path => img(`social/${path}`);
+const socialIcon = path => img(`socials/${path}`);
 
 export default {
   socialIcons: {

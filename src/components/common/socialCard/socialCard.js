@@ -26,8 +26,13 @@ function SocialCard() {
     <div className="socials">
       {socials.map(social => {
         return (
-          <a href={social.link} target="_blank" rel="noopener noreferrer">
-            <img src={images.socialIcons.github} alt={social.icon} />
+          <a
+            href={social.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            title={social.name}
+          >
+            <img src={images.socialIcons[social.icon]} alt={social.icon} />
           </a>
         );
       })}
